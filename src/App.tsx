@@ -1,6 +1,6 @@
-import { Routes, Route } from 'react-router-dom';
-import HomePage from './HomePage';
-import Waiting from './WaitingPage';
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import Waiting from "./WaitingPage";
 
 function App() {
   return (
