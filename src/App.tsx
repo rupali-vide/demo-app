@@ -1,13 +1,13 @@
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './HomePage';
+import Waiting from './WaitingPage';
 
 function App() {
-  const handleClick = () => {
-    console.log("Button clicked!");
-  };
-
   return (
-    <div style={{ padding: "2rem" }}>
-      <button onClick={handleClick}>Click  me</button>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/waiting" element={<Waiting />} />
+    </Routes>
   );
 }
 
